@@ -14,8 +14,30 @@ h1 {
 
 h2 {
     text-align: left;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
+    margin: 2% 44% 2% 0;
+    display: inline-block;
+}
+
+h3{
+    font-size: 1.35rem;
+    margin-bottom: 2%;
+}
+
+a{
+    margin: 1%;
+    padding: 2%;
+}
+
+li, ul form{
+    display: flex;
+    font-size: 1rem;
     margin: 2%;
+}
+
+ul form div{
+    margin: auto;
+    width: -webkit-fill-available;
 }
 
 li div{
@@ -26,6 +48,28 @@ li div{
 img {
     display: inline-block;
     width: 30%;
+}
+
+.checkoutImage{
+    position: relative;
+    text-decoration: none;
+    margin: 2%;
+}
+
+.checkoutImage img{
+    width: 15%;
+    display: inline-block;
+}
+
+.checkoutImage p{
+    position: absolute;
+    left: 34%;
+    top: 20px;
+    width: max-content;
+}
+
+img.btnRemoveAction{
+    width: 10%;
 }
 
 
@@ -49,4 +93,11 @@ h1, header{
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     line-height: 1.5;
     overflow-y: auto;
+}
+
+/* Bigger screen */
+@media screen and (min-width: 600px) {
+    img{
+        width: 15%
+    }
 }

@@ -89,19 +89,19 @@ msgstr "De belangrijkste bestemming voor moderne kunst in Noord-Zweden. Tijdens 
 msgid "The New UMoMA Opens its Doors"
 msgstr "De nieuwe UMoMA opent zijn deuren"
 
-#: classes/class-twentytwenty-customize.php:354
+#: classes/class-twentytwenty-customize.php:375
 msgid "The color used for the text in the overlay."
 msgstr "De kleur gebruikt voor de tekst in de overlay."
 
-#: classes/class-twentytwenty-customize.php:353
+#: classes/class-twentytwenty-customize.php:374
 msgid "Overlay Text Color"
 msgstr "Overlay tekstkleur"
 
-#: classes/class-twentytwenty-customize.php:332
+#: classes/class-twentytwenty-customize.php:353
 msgid "The color used for the overlay. Defaults to the accent color."
 msgstr "De kleur gebruikt voor de overlay. Standaard voor de accentkleur."
 
-#: classes/class-twentytwenty-customize.php:331
+#: classes/class-twentytwenty-customize.php:352
 msgid "Overlay Background Color"
 msgstr "Overlay achtergrondskleur"
 
@@ -109,7 +109,7 @@ msgstr "Overlay achtergrondskleur"
 msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
 msgstr "Met zeven verdiepingen vol met opvallende architectuur toont UMoMA tentoonstellingen van internationale hedendaagse kunst, soms samen met kunsthistorische retrospectieven. Bestaande, politieke en filosofische kwesties zijn inherent aan ons programma. Als bezoeker wordt je uitgenodigd voor rondleidingen door kunstenaars, lezingen, filmvertoningen en andere evenementen met gratis toegang"
 
-#: classes/class-twentytwenty-customize.php:262
+#: classes/class-twentytwenty-customize.php:283
 msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
 msgstr "Instellingen voor de \"Cover Template\" pagina template. Voeg een uitgelichte afbeelding toe als achtergrond."
 
@@ -125,12 +125,12 @@ msgstr "Standaard"
 msgid "Primary Color"
 msgstr "Primaire kleur"
 
-#: inc/template-tags.php:387
+#: inc/template-tags.php:393
 msgctxt "A string that is output before one or more categories"
 msgid "In"
 msgstr "In"
 
-#: classes/class-twentytwenty-customize.php:374
+#: classes/class-twentytwenty-customize.php:395
 msgid "Overlay Opacity"
 msgstr "Overlay doorzichtigheid"
 
@@ -154,7 +154,7 @@ msgstr "Y"
 msgid "404 not found"
 msgstr "404 niet gevonden"
 
-#: searchform.php:24 template-parts/modal-search.php:20
+#: template-parts/modal-search.php:20 searchform.php:24
 msgid "Search for:"
 msgstr "Zoek naar:"
 
@@ -212,7 +212,7 @@ msgstr "Reacties"
 msgid "Comments are closed."
 msgstr "Reacties zijn gesloten."
 
-#: inc/starter-content.php:176 inc/starter-content.php:186 functions.php:491
+#: functions.php:491 inc/starter-content.php:176 inc/starter-content.php:186
 msgid "Primary"
 msgstr "Primair"
 
@@ -259,7 +259,7 @@ msgid "Horizontal"
 msgstr "Horizontaal"
 
 #. translators: %s: Author name
-#: template-parts/entry-author-bio.php:20 inc/template-tags.php:348
+#: template-parts/entry-author-bio.php:20 inc/template-tags.php:354
 msgid "By %s"
 msgstr "Door %s"
 
@@ -271,11 +271,11 @@ msgstr "Footer #2"
 msgid "Page Not Found"
 msgstr "Pagina niet gevonden"
 
-#: classes/class-twentytwenty-customize.php:249
+#: classes/class-twentytwenty-customize.php:270
 msgid "Summary"
 msgstr "Samenvatting"
 
-#: classes/class-twentytwenty-customize.php:248
+#: classes/class-twentytwenty-customize.php:269
 msgid "Full text"
 msgstr "Volledige tekst"
 
@@ -301,11 +301,11 @@ msgid "Full Width Template"
 msgstr "Volledige breedte template"
 
 #. Template Name of the theme
-#: classes/class-twentytwenty-customize.php:260
+#: classes/class-twentytwenty-customize.php:281
 msgid "Cover Template"
 msgstr "Cover template"
 
-#: classes/class-twentytwenty-customize.php:246
+#: classes/class-twentytwenty-customize.php:267
 msgid "On archive pages, posts show:"
 msgstr "Op archiefpagina's, berichten tonen:"
 
@@ -341,7 +341,7 @@ msgstr "Nieuwere <span class=\"nav-short\">berichten</span>"
 msgid "Post"
 msgstr "Bericht"
 
-#: inc/template-tags.php:401
+#: inc/template-tags.php:407
 msgid "Tags"
 msgstr "Tags"
 
@@ -365,20 +365,20 @@ msgstr "We konden geen resultaten vinden voor je zoekopdracht. Je kunt het nog e
 msgid "Search:"
 msgstr "Zoeken:"
 
-#: inc/template-tags.php:439
+#: inc/template-tags.php:445
 msgid "Sticky post"
 msgstr "Sticky bericht"
 
-#: template-parts/entry-header.php:36 template-parts/content-cover.php:70
-#: inc/template-tags.php:383
+#: template-parts/content-cover.php:70 template-parts/entry-header.php:36
+#: inc/template-tags.php:389
 msgid "Categories"
 msgstr "Categorieën"
 
-#: inc/template-tags.php:365
+#: inc/template-tags.php:371
 msgid "Post date"
 msgstr "Berichtdatum"
 
-#: inc/template-tags.php:341
+#: inc/template-tags.php:347
 msgid "Post author"
 msgstr "Berichtauteur"
 
@@ -450,15 +450,15 @@ msgstr "Oudere reacties"
 msgid "says:"
 msgstr "zegt:"
 
-#: classes/class-twentytwenty-customize.php:375
+#: classes/class-twentytwenty-customize.php:396
 msgid "Make sure that the contrast is high enough so that the text is readable."
 msgstr "Zorg dat het contrast hoog genoeg is, zodat de tekst leesbaar is."
 
-#: classes/class-twentytwenty-customize.php:285
+#: classes/class-twentytwenty-customize.php:306
 msgid "Creates a parallax effect when the visitor scrolls."
 msgstr "Creëert een parallax-effect wanneer de bezoeker scrollt."
 
-#: classes/class-twentytwenty-customize.php:284
+#: classes/class-twentytwenty-customize.php:305
 msgid "Fixed Background Image"
 msgstr "Vaste achtergrondafbeelding"
 
@@ -510,7 +510,7 @@ msgstr "Mobiel menu"
 msgid "Newer Comments"
 msgstr "Nieuwere reacties"
 
-#: classes/class-twentytwenty-walker-page.php:134 inc/template-tags.php:545
+#: classes/class-twentytwenty-walker-page.php:134 inc/template-tags.php:555
 msgid "Show sub menu"
 msgstr "Toon submenu"
 
