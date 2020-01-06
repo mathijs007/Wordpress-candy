@@ -147,6 +147,14 @@ nav ul ul { position: relative; top: 10px; }
 	margin-left: 1%;
 }
 
+#secondary ul{
+	padding: 0;
+}
+
+#secondary li, .wp-block-latest-posts li, .wp-block-latest-posts__list li{
+	display: block;
+}
+
 /* display */
 .site-branding, ul{
 	display: block;
