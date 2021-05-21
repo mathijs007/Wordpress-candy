@@ -8,5 +8,5 @@
 * Educational institution: Howest
 
 ## Online at
-* Wordpress: candempire.be
-* PWA: matheus007.be
+* Wordpress: /
+* PWA: /
